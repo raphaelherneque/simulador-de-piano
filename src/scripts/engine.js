@@ -7,7 +7,7 @@ const keyMappings = {
     "u": "Bb3", "j": "B3", "k": "C4", "o": "Db4", "l": "D4",
     "p": "Eb4", "ç": "E4", "'": "F4", "]": "Gb4", "\\": "G4",
     "=": "Ab4", ",": "A4", ".": "Bb4", "/": "B4", "z": "C5",
-    "x": "Db5", "c": "D5",
+    "x": "Db5", "c": "D5"
 };
 
 const playTune = (key, volume = 1.0) => {
