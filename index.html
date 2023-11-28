@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h2>Piano Virtual</h2>
+            <div class="column volume-slider">
+                <span>Volume</span> <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.5">   
+            </div>
+            <div class="column keys-check">
+                <span>Teclas</span>
+                <input type="checkbox" id="showKeysCheckbox">
+            </div>
+    
+        </header>
+        <ul class="piano-keys">
+            <li class="key white" data-key="C3">
+                <span>DÓ</span>
+            </li>
+            <li class="key black" data-key="Db3">
+                <span>DÓ#</span>
+            </li>
+            <li class="key white" data-key="D3">
+                <span>RÉ</span>
+            </li>
+            <li class="key black" data-key="Eb3">
+                <span>RÉ#</span>
+            </li>
+            <li class="key white" data-key="E3">
+                <span>MI</span>
+            </li>
+            <li class="key invisible">
+            </li>
+            <li class="key white" data-key="F3">
+                <span>FÁ</span>
+            </li>
+            <li class="key black" data-key="Gb3">
+                <span>FÁ#</span>
+            </li>
+            <li class="key white" data-key="G3">
+                <span>SOL</span>
+            </li>
+            <li class="key black" data-key="Ab3">
+                <span>SOL#</span>
+            </li>
+            <li class="key white" data-key="A3">
+                <span>LÁ</span>
+            </li>
+            <li class="key black" data-key="Bb3">
+                <span>LÁ#</span>
+            </li>
+            <li class="key white" data-key="B3">
+                <span>SI</span>
+            </li>
+            <li class="key invisible">
+            </li>
+            <li class="key white" data-key="C4">
+                <span>DÓ</span>
+            </li>
+            <li class="key black" data-key="Db4">
+                <span>DÓ#</span>
+            </li>
+            <li class="key white" data-key="D4">
+                <span>RÉ</span>
+            </li>
+            <li class="key black" data-key="Eb4">
+                <span>RÉ#</span>
+            </li>
+            <li class="key white" data-key="E4">
+                <span>MI</span>
+            </li>
+            <li class="key invisible">
+            </li>
+            <li class="key white" data-key="F4">
+                <span>FÁ</span>
+            </li>
+            <li class="key black" data-key="Gb4">
+                <span>FÁ#</span>
+            </li>
+            <li class="key white" data-key="G4">
+                <span>SOL</span>
+            </li>
+            <li class="key black" data-key="Ab4">
+                <span>SOL#</span>
+            </li>
+            <li class="key white" data-key="A4">
+                <span>LÁ</span>
+            </li>
+            <li class="key black" data-key="Bb4">
+                <span>LÁ#</span>
+            </li>
+            <li class="key white" data-key="B4">
+                <span>SI</span>
+            </li>
+            <li class="key invisible">
+            </li>
+            <li class="key white" data-key="C5">
+                <span>DÓ</span>
+            </li>
+            <li class="key black" data-key="Db5">
+                <span>DÓ#</span>
+            </li>
+            <li class="key white" data-key="D5">
+                <span>RÉ</span>
+            </li>
+        </ul>        
+    </div>
+
+    <script  src="./src/scripts/engine.js" defer></script>
+</body>
+</html>
